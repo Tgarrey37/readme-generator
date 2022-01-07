@@ -32,7 +32,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Chose the appropriate license for this project: ",
-    choices: ["Apache", "GNU", "MIT", "Open"],
+    choices: ["Apache", "GNU", "MIT", "Open", "None"],
   },
   {
     type: "input",
@@ -47,7 +47,7 @@ const questions = [
   {
     type: "input",
     name: "questions",
-    message: "What do I do if I have an issue? ",
+    message: "What do I do if I have an issue?",
   },
   {
     type: "input",
@@ -73,7 +73,7 @@ function createMarkdownFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((response) => {
     const markdownString = generateMarkdown(response);
-    createMarkdownFile("test.md", markdownString);
+    createMarkdownFile("README.md", markdownString);
   });
 }
 
