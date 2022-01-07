@@ -31,6 +31,8 @@ npm i
 ## Usage 
 GIF of Functionality:
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/89158559/148486621-eaff14d5-8e0c-44e1-82f7-3aebdb6cee94.gif)
+
+
 Full Video Here:
 [DEMO](https://vimeo.com/663201043/8d470d401b)
 
